@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    background: #151515;
+    padding: 20px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    position: sticky;
+    top: 0px
+}
+
+header h1 {
+    color: #e50914;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e50914;
+}
+
+header input {
+    padding: 11px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 550px;
+    padding: 70px 7%;
+    display: flex;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 550px;
+}
+
+.featured {
+    color: #e50914;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+.hero p {
+    line-height: 1.7;
+    margin: 12px 0;
+}
+
+.movie-info {
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+
+/* BUTTON */
+
+button {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #b20710;
+}
+
+
+/* MOVIES */
+
+.movies {
+    padding: 60px 6%;
+}
+
+.movies > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.movie-card {
+    background: #191919;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.movie-content {
+    padding: 18px;
+}
+
+.movie-content h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.movie-content p {
+    color: #bbb;
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+
+/* ABOUT */
+
+.about-movie {
+    padding: 60px 10%;
+    text-align: center;
+    background: #151515;
+}
+
+.about-movie h2 {
+    margin-bottom: 20px;
+}
+
+.about-movie p {
+    color: #bbb;
+    line-height: 1.7;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #080808;
+    color: #aaa;
+}
+
+footer h3 {
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .movie-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header input {
+        width: 100%;
+    }
+
+    .movie-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+}

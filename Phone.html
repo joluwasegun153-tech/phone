@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body>
+    
+<header class="border-b bg-black text-white sticky top-0 z-50 left-0 right-12">
+
+    <div class="px-5 py-4 flex items-center justify-between">
+
+      <!-- LOGO -->
+      <div class="flex items-center gap-2 sticky-top relative z-50">
+
+        <div class="w-10 h-10 bg-red-600 text-white
+                    rounded-full flex items-center
+                    justify-center font-bold text-xl">
+          T
+        </div>
+
+        <div>
+          <h1 class="font-bold text-lg">
+            TechZone
+          </h1>
+
+          <p class="text-xs text-gray-400">
+            Smart Technology
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- NAVIGATION -->
+
+      <nav class="hidden md:flex gap-7 text-sm ">
+        <a href="#" class="hover:text-red-600">
+          Home
+        </a>
+
+        <a href="#products" class="hover:text-red-600">
+          Shop
+        </a>
+
+        <a href="#audio" class="hover:text-red-600">
+          Audio
+        </a>
+
+        <a href="#wearables" class="hover:text-red-600">
+          Wearables
+        </a>
+
+        <a href="#accessories" class="hover:text-red-600">
+          Accessories
+        </a>
+
+        <a href="#" class="text-red-600 font-bold">
+          Sale
+        </a>
+
+      </nav>
+
+
+      <!-- RIGHT SIDE -->
+
+      <div class="flex items-center gap-3 text-sm">
+
+        <span>🌐</span>
+        <span class="hidden sm:block">US</span>
+
+        <span class="hidden sm:block">🇬🇧 UK</span>
+
+        <span class="hidden sm:block">🇦🇪 UAE</span>
+
+        <span class="text-xl">♡</span>
+      </div>
+    </div>
+  </header>
+
+
+  
+
+  <section class="p-8">
+
+    <div class="rounded-2xl overflow-hidden
+                bg-blue-900 flex flex-col
+                md:flex-row min-h-[350px]">
+
+
+      <!-- HERO TEXT -->
+
+      <div class="w-full md:w-1/2 p-6 md:p-10
+                  text-white">
+
+        <p class="text-sm font-semibold">
+          Discover. Shop. Upgrade.
+        </p>
+
+        <h2 class="text-4xl md:text-6xl
+                   font-bold leading-tight mt-2">
+
+          Latest Tech
+
+          <br>
+
+          <span class="text-red-500">
+            Gadgets
+          </span>
+
+        </h2>
+
+        <p class="mt-5 text-sm
+                  text-red-100 max-w-md">
+
+          Explore cutting-edge gadgets
+          that upgrade your lifestyle.
+
+        </p>
+
+
+        <!-- BUTTONS -->
+
+        <div class="flex gap-3 mt-6">
+
+          <a href="#products"
+             class="bg-white text-red-600
+                    px-5 py-3 rounded-lg
+                    font-bold text-sm
+                    hover:bg-gray-900">
+
+            Shop Now →
+
+          </a>
+
+
+          <a href="#categories"
+             class="border border-white
+                    px-5 py-3 rounded-lg
+                    font-bold text-sm
+                   hover:bg-green-900
+                    hover:text-white">
+
+            Browse Collection
+
+          </a>
+
+        </div>
+
+
+        <!-- COUNTRIES -->
+
+        <div class="flex flex-wrap gap-5
+                    mt-7 text-xs">
+
+          <span>🇺🇸 US</span>
+
+          <span>🇬🇧 UK</span>
+
+          <span>🇦🇪 UAE</span>
+
+          <span>🚚 Fast Shipping</span>
+
+        </div>
+
+      </div>
+
+         <div class="w-full md:w-1/2
+                  min-h-[320px]
+                  bg-gray-900
+                  flex items-center
+                  justify-center ">
+          
+      <img src="/headphone.jpeg"
+           alt="Smartphone"
+            class="w-500 md:w-[300px]
+                 object-contain
+                 relative z-10">
+ 
+        <div class="absolute top-35 right-12
+                    bg-red-500 w-20 h-20
+                    rounded-full shadow
+                    flex items-center
+                    justify-center
+                    text-center
+                    font-bold text-sm text-red-900">New<br>Arrivals
+        </div>
+      </div>
+        </div>
+
+
+        <section id="Categories"
+        class=" py-5 ">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+
+          <div id="audio"
+          class=" p-4 rounded-xl
+                      flex  items-center gap-5
+                      hover:bg-red-600
+                      hover:text-white
+                      transition
+                      bg-transitition-duration-500 bg-gradient-to-r from-blue-500 to-purple-500">
+
+            <img src="/headphone.jpeg"
+                 alt="Audio"
+                 class="w-20 h-20 object-contain">
+
+            <h3 class="text-sm font-semibold">
+              Audio
+            </h3>
+            <p class="text-xs text-red-900 ">
+              Premium Sound
+            </p>  
+        <span class="ml-auto
+                     text-red-600 font-bold">
+          +
+        </span>
+  
+        
+          </div>
+          <div id="smart devices"
+          class=" broder rounded-xl p-4
+                      flex items-center gap-5
+                      hover:bg-red-600
+                      hover:text-white
+                      bg-transitition-duration-500 bg-gradient-to-r from-blue-500 to-purple-500">
+
+            <img src="/smart devise.jpeg"
+                 alt="Audio"
+                 class="w-20 h-20 object-contain">
+
+            <h3 class="text-sm font-bold">
+              Smart Devices
+            </h3>
+            <p class="text-xs text-red-900 ">
+              Smart living 
+            </p>  
+        <span class="ml-auto
+                     text-red-600 font-bold">
+          +
+        </span>
+          </div>
+
+
+          <div id="wearables"
+          class=" broder rounded-xl p-4
+                      flex items-center gap-5
+                      hover:bg-red-600
+                      hover:text-white
+                      bg-transitition-duration-500 bg-gradient-to-r from-blue-500 to-purple-500">
+
+            <img src="/Wearables-WP-hero3-1024x538.jpg"
+                 alt="Audio"
+                 class="w-50 h-20 object-contain">
+
+            <h3 class="text-sm font-bold">
+              Wearables
+            </h3>
+            <p class="text-xs text-red-900 ">
+                 Track. Achieve.
+            </p>  
+        <span class="ml-auto
+                     text-red-600 font-bold">
+          +
+        </span>
+          </div>
+
+          <div id="smart devices"
+          class=" broder rounded-xl p-4
+                      flex items-center gap-5
+                      hover:bg-red-600
+                      hover:text-white
+                      bg-transitition-duration-500 bg-gradient-to-r from-blue-500 to-purple-500">
+
+            <img src="/Phone-accessories-Marketplace-Naija-blog_webp.webp"
+                 alt="Audio"
+                 class="w-50 h-20 object-contain">
+
+            <h3 class="text-sm font-bold">
+               Accessories
+            </h3>
+            <p class="text-xs text-red-900 ">
+               Designed for You
+            </p>  
+        <span class="ml-auto
+                     text-red-600 font-bold">
+          +
+        </span>
+          </div>
+
+          <div id="smart devices"
+          class=" broder rounded-xl p-4
+                      flex items-center gap-5
+                      hover:bg-red-600
+                      hover:text-white
+                      bg-transitition-duration-500 bg-gradient-to-r from-blue-500 to-purple-500">
+
+            <img src="/Deal.jpeg"
+                 alt="Audio"
+                 class="w-50 h-20 object-contain">
+
+            <h3 class="text-sm font-bold">
+             Deals
+            </h3>
+            <p class="text-xs text-red-900 ">
+              Top Deals Today
+            </p>  
+        <span class="ml-auto
+                     text-red-600 font-bold">
+          +
+        </span>
+          </div>
+
+        </div>
+        </section>
+
+        <section class="mt-4">
+          <div class="flex justify-between item-center mb-5">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">
+            Trending Products
+          </h2>
+          <p class="text-gray-900 text-sm ">
+            View all →
+          </p>
+          </div>
+
+
+    <div class="grid grid-cols-2
+                sm:grid-cols-3
+                md:grid-cols-4
+                lg:grid-cols-7 gap-3 mb-4">
+
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/1-42.jpg"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                    Portable Bluetooth Speaker
+                  </h3>
+
+                  <p class="text-xs text-gray-500">
+                   Powerful Bass
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $229.99
+                  </p>
+                </div>
+
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/Watch.png"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                    Smart Watch seris 9
+                  </h3>
+
+                  <p class="text-xs text-gray-500">               
+                    Premium Smart Watch
+
+$
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $229.99
+                  </p>
+                </div>
+
+
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/Wifi.png"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                    Wi-Fi 6 Router
+                  </h3>
+
+                  <p class="text-xs text-gray-500">
+                   High-Speed Wi-Fi
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $199.99
+                  </p>
+                </div>
+
+
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/camera.png"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                    Digital Camera
+                  </h3>
+
+                  <p class="text-xs text-gray-500">
+                   High-Resolution Imaging
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $329.99
+                  </p>
+                </div>
+
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/laptop.png"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                   Laptop
+                  </h3>
+
+                  <p class="text-xs text-gray-500">
+                Good and realible
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $429.99
+                  </p>
+                </div>
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/Charger.png"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                   Charger
+                  </h3>
+
+                  <p class="text-xs text-gray-500">
+                   Fast Charging
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $229.99
+                  </p>
+                </div>
+
+
+                <div class="p-4 rounded-lg
+                            border border-gray-900
+                            hover:shadow-lg
+                            transition duration-300">
+                  
+                  <img src="/Smartphone.png"
+                       alt="Product 1"
+                       class="w-full h-40 object-cover rounded-lg">
+
+                  <h3 class="text-sm font-semibold mt-2">
+                    Smart Phone
+                  </h3>
+
+                  <p class="text-xs text-gray-500">
+                   High-Performance
+                  </p>
+
+                  <p class="text-sm font-bold text-red-600">
+                    $229.99
+                  </p>
+                </div>
+        </section>
+
+
+                 </section>
+
+  <section class="px-4 pb-10">
+
+    <div class="grid grid-cols-2
+                md:grid-cols-4
+                border rounded-xl
+                overflow-hidden">
+
+
+      <div class="p-5 flex gap-3
+                  items-center
+                  border-b md:border-b-0
+                  md:border-r">
+
+        <span class="text-3xl">
+          🚚
+        </span>
+
+        <div>
+
+          <h3 class="font-bold text-sm">
+            Worldwide Shipping
+          </h3>
+
+          <p class="text-xs text-gray-400">
+            Fast delivery to US, UK & UAE
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="p-5 flex gap-3
+                  items-center
+                  border-b md:border-b-0
+                  md:border-r">
+
+        <span class="text-3xl">
+          🛡️
+        </span>
+
+        <div>
+
+          <h3 class="font-bold text-sm">
+            Secure Payments
+          </h3>
+
+          <p class="text-xs text-gray-400">
+            100% safe checkout
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="p-5 flex gap-3
+                  items-center
+                  border-b md:border-b-0
+                  md:border-r">
+
+        <span class="text-3xl">
+          🔄
+        </span>
+
+        <div>
+
+          <h3 class="font-bold text-sm">
+            30-Day Returns
+          </h3>
+
+          <p class="text-xs text-gray-400">
+            Hassle-free returns
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="p-5 flex gap-3
+                  items-center">
+
+        <span class="text-3xl">
+          🎧
+        </span>
+
+        <div>
+
+          <h3 class="font-bold text-sm">
+            Premium Support
+          </h3>
+
+          <p class="text-xs text-gray-400">
+            24/7 Customer Support
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="px-8 pb-10">
+
+          <div class="flex justify-between item-center mb-5 ">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4 ">
+            Ideas for Your Next Upgrade
+          </h2>
+          <p class="text-gray-900 text-sm ">
+          See more ideas
+          </p>
+          </div>
+
+    <div class="flex flex-cols-2
+                md:flex-cols-5 gap-3">
+
+
+      <!-- IDEA 1 -->
+
+      <div class="h-40 rounded-xl
+                  overflow-hidden
+                  relative bg-gray-800">
+
+        <img
+          src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=500&q=80"
+          class="w-full h-full object-cover">
+
+        <div class="absolute inset-0
+                    bg-gradient-to-t
+                    from-black/80
+                    to-transparent
+                    flex items-end p-4">
+
+          <div class="text-white">
+
+            <h3 class="font-bold text-sm">
+              Tech Setup Ideas
+            </h3>
+
+            <p class="text-xs">
+              128 ideas
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="pb-10 px-4">
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="bg-blue-900
+        rounded-xl p-8">
+        <div class="flex
+       items-center gap-5">
+          <div class="text-5xl">
+            🎁
+          </div>
+          
+
+          <h2 class="text-white font-bold absolute top-6">
+              Exclusive Deals
+              for You!
+          </h2>
+          <p class="text-white mt-2">
+              Save more on
+              top-rated gadgets.<br>
+              912 916 9626
+          </p>
+
+            <a href="#products"
+               class="inline-block
+                      mt-5
+                      bg-white
+                      text-red-600
+                      px-5 py-2
+                      rounded-lg
+                      text-sm
+                      font-bold">
+
+              Shop Deals →
+            </a>
+      </div>
+
+      </div>
+      </div>
+<div class="border
+            rounded-xl p-8">
+          
+        <h2 class="text-xl
+                   font-bold">Get the Latest
+                              Tech & Deals
+        </h2>
+
+
+        <p class="text-sm
+                  text-gray-500 mt-2"> Join our newsletter and
+                                        never miss an update.
+        </p>
+        <div class="flex mt-5">
+          <input 
+            type="email"
+            placeholder="Enter your email"
+            class="border px-4 py-3
+                   rounded-l-lg
+                   outline-none
+                   w-full text-sm">
+        
+
+          <button
+            class="bg-red-700
+                   text-white
+                   px-5
+                   rounded-r-lg
+                   text-sm
+                   font-bold 
+                   hover:bg-green-900">
+            Subscribe
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+      </div>
+
+
+ 
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</body>
+</html>
+
+<table class="w-full border-collapse border border-gray-300">
+
+  <tr class="bg-red-600 text-white">
+    <th class="border p-3">Product</th>
+    <th class="border p-3">Category</th>
+    <th class="border p-3">Price</th>
+  </tr>
+
+  <tr>
+    <td class="border p-3">Wireless Earbuds</td>
+    <td class="border p-3">Audio</td>
+    <td class="border p-3">$129.99</td>
+  </tr>
+
+  <tr class="bg-gray-100">
+    <td class="border p-3">Smart Watch</td>
+    <td class="border p-3">Wearables</td>
+    <td class="border p-3">$299.99</td>
+  </tr>
+
+</table>
